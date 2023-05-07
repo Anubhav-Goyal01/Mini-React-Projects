@@ -1,0 +1,21 @@
+.pokedex{
+    max-width: 1000px;
+    margin: 0rem auto;
+	text-align: center;
+    margin-bottom: 40px;
+}
+
+.pokedex-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 30px;
+    row-gap: 20px;
+}
+
+.pokedex-winner {
+	color: #4caf50;
+}
+
+.pokedex-loser {
+	color: #e91e63;
+}
